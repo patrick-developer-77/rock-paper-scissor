@@ -1,0 +1,24 @@
+.footer {
+	text-align: right;
+	width: min(1368px, 95%);
+	padding-bottom: 2rem;
+}
+.footer .btn {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid hsl(217, 16%, 45%);
+	padding: .875rem 2.5rem;
+	border-radius: .5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+}
+.footer .btn:hover {
+	background-color: hsl(217, 16%, 45%);
+	border-color: #fff;
+}
+.footer .btn:focus {
+	outline: 1px solid yellow;
+	box-shadow: 0 0 0px 6px rgb(255 255 0 / 25%);
+}

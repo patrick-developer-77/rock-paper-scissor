@@ -1,0 +1,33 @@
+.scoreboard {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .7rem .7rem .7rem 1.5rem;
+	border: 3px solid hsl(217, 16%, 45%);
+	border-radius: .5rem;
+	text-transform: uppercase;
+}
+
+.scoreboard .score {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: .25rem;
+	padding: .875rem 1.625rem;
+	color: hsl(229, 25%, 31%);
+}
+
+.scoreboard .score-text {
+	letter-spacing: 2px;
+}
+
+.scoreboard .score-number {
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.scoreboard img {
+	width: 35%;
+}

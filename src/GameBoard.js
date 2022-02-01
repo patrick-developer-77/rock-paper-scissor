@@ -1,11 +1,10 @@
-import Circle from "./Circle";
+import Options from './Options'
+import './GameBoard.css'
 
 export default function GameBoard() {
 	return (
 		<div className="game-board">
-			<Circle type="paper" />
-			<Circle type="scissor" />
-			<Circle type="rock" />
+			<Options />
 		</div>
 	)
 }
